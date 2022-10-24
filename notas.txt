@@ -1,4 +1,0 @@
---cor-primaria: #0da7ee;
---cor-background: #171717;
---cor-background-secundario: #222;
---cor-wpp: #25d366;

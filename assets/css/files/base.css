@@ -1,0 +1,98 @@
+:root{
+    --primary-color: #0da7ee;
+    --primary-color-to-rgba: 13, 167, 238;
+    --header-background-color: #00306f;
+    --header-background-color-to-rgba: 0, 48, 111;
+    --background-color: #171717;
+    --background-color-2: #222;
+    --text-color: #fff;
+    --wpp-color: #25d366;
+
+    --font-text: 'Nunito', sans-serif;
+    --font-title: 'Roboto', sans-serif;
+    --font-brand: 'Goldman', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;    
+    letter-spacing: 1.5px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    background-color: var(--background-color);
+    font-family: var(--font-text);
+    color: var(--text-color); 
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea{
+    font-size: 1rem;
+    font-family: var(--font-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-title);
+}
+
+.container{
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 150px 0 25px;
+}
+
+.section-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translate(-50%);
+    border-radius: 25px;
+}
+
+.section-subtitle{
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    opacity: .75;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,17 @@
+.portfolio-itens{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.portfolio-img{
+    width: 100%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .portfolio-itens{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

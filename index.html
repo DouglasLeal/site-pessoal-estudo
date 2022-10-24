@@ -18,8 +18,190 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <h1>Hello, World!!!</h1>
+<body id="index">
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="navbar-brand">
+                        <p class="navbar-brand-title">Douglas Leal</p>
+                        <p class="navbar-brand-subtitle"><i class="fa-solid fa-code"></i> Desenvolvedor web</p>
+                    </div>
+
+                    <button class="btn-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a class="navbar-link" href="#index">Início</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#about">Sobre</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#services">Serviços</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#portfolio">Portfolio</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-content-title">Precisando de um site para marcar presença no mundo digital?</h1>
+
+                <p class="header-content-text">Cada vez mais pessoas utilizam a internet em busca de produtos e
+                    serviços,
+                    aumente
+                    sua visibilidade na internet, exponha seus produtos e serviços 24 horas por dia e seja encontrado
+                    por
+                    novos clientes.</p>
+            </div>
+        </div>
+
+        <a class="header-icone" href="#about">
+            <i class="fa-solid fa-angles-down"></i>
+        </a>
+    </header>
+
+    <main>
+        <section class="about section container" id="about">
+            <div class="about-content">
+                <div>
+                    <h2 class="section-title">
+                        Desenvolvedor web
+                    </h2>
+                    <p class="section-subtitle">O que posso fazer por você?</p>
+                </div>
+
+                <div>
+                    <p class="about-text">
+                        Ofereço soluções personalizadas conforme as suas necessidades. O meu trabalho é focado em
+                        desenvolver sites que ajudem profissionais liberais, pequenas e médias empresas a aumentarem
+                        sua presença no mundo digital. Se você deseja:
+                    </p>
+
+                    <ul class="about-list">
+                        <li><i class="fas fa-caret-square-right"></i> Passar mais credibilidade</li>
+                        <li><i class="fas fa-caret-square-right"></i> Ter mais visibilidade</li>
+                        <li><i class="fas fa-caret-square-right"></i> Atingir novos clientes</li>
+                        <li><i class="fas fa-caret-square-right"></i> Melhorar a comunicação com seus clientes</li>
+                    </ul>
+
+                    <p class="about-text">
+                        Entre em contato e solicite um orçamento sem compromisso.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-btn-group">
+                <a class="btn btn-contact" href="#">Contato</a>
+                <a class="btn btn-wpp" href="#">Whatsapp</a>
+            </div>
+        </section>
+
+        <section class="services section container" id="services">
+            <h2 class="section-title">
+                Serviços
+            </h2>
+
+            <div class="services-itens">
+                <div class="services-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3 class="services-item-title">Sites</h3>
+                    <p class="services-item-text">
+                        Ainda não está marcando presença na internet?
+                        Tenha um site com layout personalizado e divulgue o seu trabalho.
+                    </p>
+                </div>
+
+                <div class="services-item">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3 class="services-item-title">Design responsivo</h3>
+                    <p class="services-item-text">
+                        Seu site estará pronto para diversos tamanhos de tela, seja computador, tablet
+                        ou smartphone.
+                    </p>
+                </div>
+
+                <div class="services-item">
+                    <i class="fas fa-search"></i>
+                    <h3 class="services-item-title">SEO</h3>
+                    <p class="services-item-text">
+                        Quer ser encontrado no Google?
+                        Seu site será otimizado para ser encontrado pelos sites de busca.
+                    </p>
+                </div>
+
+                <div class="services-item">
+                    <i class="fas fa-cog"></i>
+                    <h3 class="services-item-title">Suporte e manutenção</h3>
+                    <p class="services-item-text">
+                        Precisando de ajustes, correções, atualização de recursos, trocar ou adicionar
+                        textos e imagens?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio container section" id="portfolio">
+            <h2 class="section-title">
+                Portfolio
+            </h2>
+
+            <div class="portfolio-itens">
+                <img class="portfolio-img" src="./assets/img/background-header.jpg" alt="">
+                <img class="portfolio-img" src="./assets/img/background-header.jpg" alt="">
+                <img class="portfolio-img" src="./assets/img/background-header.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="contact section container" id="contact">
+            <h2 class="section-title">
+                Contato
+            </h2>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="far fa-envelope"></i>
+                        <h3 class="contact-info-item-title">Email</h3>
+                        <a class="contact-info-item-link" href="#">contato@douglasleal.com.br</a>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3 class="contact-info-item-title">Whatsapp</h3>
+                        <a class="contact-info-item-link" href="#">(21) 98765-4321</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#">
+                    <input class="input" type="text" placeholder="Nome*">
+                    <input class="input" type="text" placeholder="Email*">
+                    <input class="input" type="text" placeholder="DDD+Whatsapp">
+                    <textarea class="input" placeholder="Mensagem*"></textarea>
+                    <input class="form-submit" type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copy">&copy; 2022 - Desenvolvido por Douglas Leal</p>
+
+            <div class="footer-info">
+                <a class="footer-info-link" href="#">
+                    <i class="far fa-envelope"></i>
+                    contato@douglasleal.com.br
+                </a>
+                <span>|</span>
+                <a class="footer-info-link" href="#">
+                    <i class="fab fa-whatsapp"></i> (21) 98765-4321
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="./assets/js/script.js"></script>
 </body>

@@ -1,0 +1,55 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-content div:nth-child(1){
+    width: 100%;
+}
+
+.about-content div:nth-child(2){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-list i{
+    color: var(--primary-color);
+}
+
+.about-btn-group{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn{
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.btn-contact{
+    background-color: var(--primary-color);
+}
+
+.btn-wpp{
+    background-color: var(--wpp-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .about-content{
+        width: 75%;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
